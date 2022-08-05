@@ -135,6 +135,7 @@ a {
 @media all and (max-width: 768px) {
   #component-emergency {
     margin:0 0 0 10%;
+    font-size: 1.25rem;
     width: 80%;
   }
   .ce-todo-item, .ce-forbidden-todo-item {
@@ -153,5 +154,11 @@ a {
   .ce-btn {
     width: 50%;
     margin: 0
+  }
+  .ce-title {
+    font-size: 1.5rem;
+  }
+  .ce-todo-item li, .ce-forbidden-todo-item li{
+    font-size: 1.25rem;
   }
 }
